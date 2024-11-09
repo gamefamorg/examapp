@@ -1,5 +1,4 @@
-## Wiki
-https://github.com/gamefamorg/examapp/wiki
+## Wiki: https://github.com/gamefamorg/examapp/wiki
 
 ## Running the Client in GitHub CodeSpaces
 
