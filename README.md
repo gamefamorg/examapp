@@ -1,3 +1,6 @@
+## Wiki
+https://github.com/gamefamorg/examapp/wiki
+
 ## Running the Client in GitHub CodeSpaces
 
 1. **Open CodeSpace**: Access your **GitHub CodeSpace**.
@@ -12,8 +15,7 @@
 
 4. **Access the Client**: After the PHP server starts, **GitHub CodeSpace** will provide a **link to access** (not `localhost:8080`). You can access the app via that provided link.
 
-## Contributers
+
+## Author
 hoa.nguyenduy
 
-
-mygf01
