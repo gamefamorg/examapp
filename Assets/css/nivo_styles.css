@@ -1,0 +1,149 @@
+/* The Nivo Slider styles */
+
+.slide_button {
+	display: block;
+	float: right;
+	width: 106px;
+	height: 33px;
+	background: url(/Assets/img/slide_button.png) no-repeat;
+	text-align: center;
+	padding-right: 5px;
+	color: #f7af59 !important;
+	text-shadow: 0px -1px #420e07;
+	padding-top: 11px;
+	text-decoration: none !important;
+	margin-top: -45px;
+}
+
+.slide_button:hover {
+background: url(/Assets/img/slide_button.png) left 100%;
+}
+
+.nivoSlider {
+	position: relative;
+	z-index: 5;
+}
+.nivoSlider img {
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Caption styles */
+.nivo-caption {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background: rgba(21,7,10,0.7);
+	padding: 5px 40px;
+	text-align: left;
+	color: #e0ded1;
+	width: 640px;
+	opacity: 1 !important;
+	z-index: 89;
+	text-shadow: 1px 1px #000;
+}
+
+.nivo-caption a {
+	display: inline !important;
+}
+.nivo-html-caption {
+    display: none;
+}
+
+.nivo-controlNav a {
+	position: relative;
+	z-index: 99;
+	cursor: pointer;
+}
+
+.nivo-controlNav a.active {
+	font-weight: bold;
+}
+
+.nivo-caption h1 {
+	margin: 0px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#slider-wrapper {
+    /*background:url(/Assets/img/slider.png) no-repeat;*/
+    width: 720px;
+    height: 300px;
+}
+
+#slider {
+    width: 720px;
+    height: 300px;
+	/*background:url(/Assets/img/loading.gif) no-repeat 50% 50%;*/
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:19px;
+	top: 19px;
+}
+.nivo-controlNav a {
+	display:block;
+	width: 17px;
+	height: 17px;
+	background:url(/Assets/img/slide_tabs.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	float:left;
+	margin-right: 5px;
+}
+.nivo-controlNav a.active {
+	background-position: 0 -17px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	/*background:url(/Assets/img/arrows.png) no-repeat;*/
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+}
+
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
